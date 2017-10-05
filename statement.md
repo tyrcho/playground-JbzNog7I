@@ -6,7 +6,7 @@ This Kotlin template lets you get started quickly with a simple one-page playgro
 fun <T> ((T) -> Boolean).not(): (T) -> Boolean = { !this(it) }
 
 fun main(args: Array<String>) {
-    val isOne: (Int)->Boolean = { it == 1 }
+    val isOne: (Int) -> Boolean = { it == 1 }
     val isNotOne = isOne.not()
     
     println(isOne(1))
