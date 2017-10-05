@@ -7,7 +7,10 @@ fun <T> ((T) -> Boolean).not(): (T) -> Boolean = { !this(it) }
 
 fun main(args: Array<String>) {
     val isOne: (Int) -> Boolean = { it == 1 }
+    // use it like this
     val isNotOne = isOne.not()
+    // not like this
+    val isNotOneOther = not(isOne)
     
     println(isOne(1))
     println(isOne(2))
