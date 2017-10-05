@@ -34,7 +34,7 @@ fun main(args: Array<String>) {
     
     
     // Example 3
-    // Something things a going a bit crazy
+    // Let's go crazy
     // Here we have two implicit receiver
     //              the first one                           and the second one
     //            vvvvvvvvvvvvvvvvv                             vv
