@@ -29,11 +29,11 @@ fun main(args: Array<String>) {
     fun String.isAValidRefFun() = startsWith("ref-")
     println(if("ref-12345".isAValidRefFun()) "ok" else "ko")
     
+    
+    // Example 3
     val startWithRef: (String) -> Boolean = {it.startsWith("ref")}
     val endWithBar: (String) -> Boolean = { it.endsWith("bar") }
     
-    
-    // Example 3
     // Let's go crazy
     // Here we have two implicit receiver
     //              the first one                           and the second one
